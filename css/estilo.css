@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.i{
+    padding: 0px 0px 420px 50px;
+}
+main{
+     background-color:#ff6b81;
+     padding: 20px;
+     margin: auto;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center; 
+     padding-left: 70px;
+     width: 100%
+}
+
+header{
+    background-color:#ff6b81;
+    display: flex;
+    align-items: center;
+}
+#celular{padding-left: 10%;
+         padding-top: 10%;
+         margin-right: 90px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    margin-left: 70px;
+    color: white;
+    margin-top: 90px;
+}
+h2{margin-left: 15px;}
+p{font-size: 10px; margin-top: 20px; margin-bottom: 30px;}
+
+#botao1{
+    padding: 10px 22px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    
+
+}
+
+#botao2{
+    background-color: #ff6b81;
+    padding: 9px 18px;
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;
+}
+#a1{color: #ff6b81;}
+#a2{color: white;}
+
+#botao1:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff6b81;
+    transition: all 0.3s linear;
+}
+
+#botao2:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff6b81;
+    transition: all 0.3s linear;
+}
+
+
+#top{
+    color: white;
+    margin-left: 62%;
+    background-color: #ff6b81;
+    padding: 10px 24px;
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;}
+
+a{text-decoration: none;}
+
+section{
+    margin:  auto;
+    text-align: center;
+    
+}
+section > h1{color: black; padding-bottom: 70px; }
+
+.row {
+    display: flex;
+    box-sizing: border-box
+  }
+  
+.column {
+    flex: 33.33%;
+    margin: 10px;
+    background-color: #ff6b81;
+  }
+
+#bord{padding-left: 100px; padding-right: 100px; padding-bottom: 100px;}
+.column >h2{color: black; font-size: 0.5cm; text-align: start; padding-top: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.column >p {text-align: start; font-size: 0.4cm; color: white; padding-left: 20px; padding-right: 20px; margin-bottom: 10px;}
+
+footer{background-color: #ff6b81; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;}
+.dados{
+    display: flex;
+    margin-left: 41%;
+}
+.dados >h3{
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 650px){
+
+   
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1{
+        margin-right: 55px;
+    }
+    #celular{
+        margin-left: 80px;
+    }
+    .i{
+        padding: 40px 50px 0px 50px;
+    }
+
+    .row {
+        display: block;
+      }
+    
+      .column {
+        width: 100%;
+        padding: 10px;
+      }
+
+    .conteudo-principal{
+        padding: 70px;
+        margin: 0 auto;
+    }
+
+    .dados {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .dados h3 {
+        margin: 5px;
+    }
+
+}
+
+
+
+
+
+
+    
+
